@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline with Font Awesome</title>
+
+    <!-- ✅ Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-list">
+      <!-- Event 1: Primary -->
+      <div class="event">
+        <div class="event-icon primary">
+          <i class="fa-regular fa-face-smile"></i>
+        </div>
+        <div class="card">
+          <span class="badge badge-primary">Primary</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            necessitatibus numquam earum ipsa fugiat veniam suscipit.
+          </p>
+          <div class="timestamp">2 Hours Ago</div>
+        </div>
+      </div>
+
+      <!-- Event 2: Danger -->
+      <div class="event">
+        <div class="event-icon danger">
+          <i class="fa-solid fa-skull-crossbones"></i>
+        </div>
+        <div class="card">
+          <span class="badge badge-danger">Danger</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            necessitatibus numquam earum ipsa fugiat veniam suscipit.
+          </p>
+          <div class="timestamp">2 Hours Ago</div>
+        </div>
+      </div>
+
+      <!-- Event 3: Success -->
+      <div class="event">
+        <div class="event-icon success">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="card">
+          <span class="badge badge-success">Success</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            necessitatibus numquam earum ipsa fugiat veniam suscipit.
+          </p>
+          <div class="timestamp">2 Hours Ago</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
